@@ -1,5 +1,23 @@
 apply plugin: 'java'
+apply plugin:'application'
+
+// Uses JDK 7
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+mainClassName = 'com.anoop.MainClass'
 
 task wrapper(type: Wrapper) {
     gradleVersion = '2.0'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile 'junit:junit:4.4'
+}
+
+run{
+    standardInput = System.in
 }
