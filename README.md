@@ -1,10 +1,5 @@
 In Memory Database Prototype
 --------
-Author : Anoop Hallur
-
-Email  : anoophallur@gmail.com
-
-(please let me  know if there is a problem with deploying the code and running the application)
 
 ***
 
